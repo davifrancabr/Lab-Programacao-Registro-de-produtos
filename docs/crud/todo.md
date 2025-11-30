@@ -1,0 +1,5 @@
+# Todo
+
+- **UML Atualizada**
+- **Documentar todas as funcionalidades(código/interface)**
+- **Inserir nova estrutura no README**
