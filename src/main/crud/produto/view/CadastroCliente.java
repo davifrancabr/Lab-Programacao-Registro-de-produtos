@@ -101,7 +101,4 @@ public class CadastroCliente extends JFrame {
                 "Bem vindo(a): " + cliente.getNome());
     }
 
-    public static void main(String[] args) {
-        new CadastroCliente();
-    }
 }
