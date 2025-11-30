@@ -1,4 +1,4 @@
-# Gerenciamento de produtos
+# Cardápio digital
 
 ### Estrutura do CRUD:
 1. CREATE - Adicionar Produto<br/><strong>Método: <code>adicionar(Produto produto)</code></strong>

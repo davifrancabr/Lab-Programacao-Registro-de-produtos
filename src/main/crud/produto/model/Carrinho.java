@@ -59,7 +59,6 @@ public class Carrinho {
         total = 0.0;
         for (Produto p : itens){
             total += p.getPreco();
-
         }
     }
 
