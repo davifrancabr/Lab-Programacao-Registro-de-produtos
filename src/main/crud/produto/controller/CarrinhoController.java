@@ -11,15 +11,21 @@ public class CarrinhoController {
         this.carrinhoAtual = new Carrinho(cliente);
     }
 
-    public void adicionarAoCarrinho(Produto produto){
-        if (carrinhoAtual !=null){
-            carrinhoAtual.adicionarItem(produto);
+    public void adicionarAoCarrinho(Produto produto, int quantidade){
+        if (carrinhoAtual !=null && quantidade > 0){
+            carrinhoAtual.adicionarItem(produto, quantidade);
         }
     }
 
     public void removerDoCarrinho(int index){
         if (carrinhoAtual!= null){
             carrinhoAtual.removerItem(index);
+        }
+    }
+
+    public void atualizarQuantidade(int produtoId, int novaQuantidade){
+        if (carrinhoAtual !=null) {
+            carrinhoAtual.atualizarQuantidade(produtoId, novaQuantidade);
         }
     }
 
@@ -31,7 +37,8 @@ public class CarrinhoController {
         if (carrinhoAtual != null){
             System.out.println("\n" + carrinhoAtual.getResumo());
             System.out.println("\n📧 E-mail enviado para: " +
-                    carrinhoAtual.getCliente().getEmail());
+                    carrinhoAtual.getCliente().getTelefone());
+            carrinhoAtual.limpar();
         }
     }
 }

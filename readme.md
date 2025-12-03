@@ -170,3 +170,7 @@ Contém as interfaces gráficas desenvolvidas com Swing:
 O sistema implementa com sucesso todos os requisitos de um CRUD completo aplicado ao contexto de um cardápio digital. A arquitetura MVC garante organização, manutenibilidade e escalabilidade. As decisões de design priorizaram simplicidade, experiência do usuário e boas práticas de programação orientada a objetos.
 
 O projeto demonstra domínio dos conceitos de POO (encapsulamento, herança de JFrame, polimorfismo nos models) e desenvolvimento de interfaces gráficas com Swing. A estrutura modular permite fácil expansão futura, como implementação de persistência em banco de dados, autenticação de usuários, controle de estoque em tempo real e integração com sistemas de pagamento.
+
+---
+
+## 5. 
