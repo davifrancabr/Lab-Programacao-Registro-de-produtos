@@ -167,13 +167,12 @@ public class LojaView extends JFrame {
 
         Produto produto = produtoController.listar().get(linha);
 
-        // Solicita a quantidade
         String quantidadeStr = JOptionPane.showInputDialog(this,
                 "Quantas unidades de " + produto.getNome() + "?",
                 "1");
 
         if (quantidadeStr == null) {
-            return; // Usuário cancelou
+            return;
         }
 
         try {
